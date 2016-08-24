@@ -1,0 +1,201 @@
+@CHARSET "UTF-8";
+h1 {
+	font-family:Calibri, Candara, Segoe, “Segoe UI”, Optima, Arial;
+}
+a {
+	font-family:"Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+/* 清楚浮动 */
+.clear {
+	clear:both;
+}
+/* footer.jsp 底部信息栏 */
+#safefoot {
+	width:100%;
+	height:200px;
+	background:#F2F2F2;
+	margin-top:3px;
+}
+#foot_main {
+	height:30px;
+	width:1120px;
+	margin:0 auto;
+}
+#foot_main p {
+	margin:0 auto;
+	width:500px;
+	text-align:center;
+}
+#foot_font {
+	height:150px;
+	width:920px;
+	margin:10px auto;
+}
+.foot_ul {
+	height:130px;
+	width:300px;
+	float:left;
+	padding-top:30px;
+}
+.foot_ul li {
+	margin:10px;
+}
+.foot_ul a {
+	text-decoration: none;
+	color:#333333;
+}
+.foot_ul a:HOVER {
+	color:#ff0033;
+}
+/* login.jsp 登录界面 */
+.contain {
+	margin:0 auto;
+	padding-top:10px;
+	width:1120px;
+	height:122px;
+}
+#header_login a {
+	display:block;
+	align:left;
+	width:274px;
+	height:100%;
+	margin:5px 20px 5px 0;
+	background-image: url(../images/TDsafe01.jpg);
+	background-position: -462px -286px;
+	float:left;
+}
+#header_login h1 {
+	width:280px;
+	height:36px;
+	font-size:48px; 
+	float:left;
+	padding-top:55px;
+}
+#contain_mid {
+	padding-top:10px;
+	width:100%;
+	height:500px;
+	background:#F2F2F2;
+}
+#contain_mid_login {
+	margin:0 auto;
+	padding-top:10px;
+	width:1120px;
+	height:500px;
+}
+#contain_mid_login img {
+	width:350px;
+	height:400px;
+	margin-top:25px;
+	margin-right:120px;
+	float:left;
+}
+#loginbox {
+	width:350px;
+	height:400px;
+	margin-top:25px;
+	background:white;
+	float:left;
+}
+.itext {
+	line-height: 37px;
+    height: 37px;
+    border: 0;
+    outline:0;
+    width: 254px;
+    overflow: hidden;
+    padding:10px 0 10px 10px;
+    margin-left:11px;
+    font-size: 14px;
+    font-family: '\5b8b\4f53';
+    float:left;
+}
+#loginbox_mid {
+	width:310px;
+	height:360px;
+	padding:20px 20px 20px 20px;
+}
+.login_row {
+	border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+    margin-bottom: 20px;
+}
+.login_lab {
+	width: 38px;
+    height: 38px;
+	float:left;
+}
+#login_lab_user {
+	background:url(../images/user02.png);
+	background-repeat: no-repeat;
+	position: relative;
+	top:4px;
+	left:4px;
+	
+}
+#login_lab_pwd {
+	background-image:url(../images/Password.png);
+	position: relative;
+	left:-3px;
+}
+#loginbox_mid h1 {
+	float:left;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+#reg {
+	float:right	;
+}
+#reg a {
+	text-decoration: none;
+}
+#reg a:HOVER {
+	color:red;
+}
+#spanfor {
+	display:-moz-inline-block;
+	display:inline-block;
+	width: 70px;
+    height: 18px;
+    padding:10px 0 10px 10px;
+    margin-left:150px;
+}
+#spanfor a {
+	text-decoration: none;
+}
+#spanfor a:hover {
+	color:red;
+}
+#loginbut {
+	height: 38px;
+    width: 304px;
+    border:0;
+    font-size:24px;
+    outline:0;
+    font-family:"Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    background: -webkit-linear-gradient(#F2F2F2, white,#F2F2F2); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#F2F2F2, white,#F2F2F2); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#F2F2F2, white,#F2F2F2); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#F2F2F2, white,#F2F2F2); /* 标准的语法（必须放在最后） */
+}
+#loginbut:HOVER {
+	background: -webkit-linear-gradient(rgba(242, 242, 242,0) ,rgba(242, 242, 242,1) , rgba(242, 242, 242,0)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgba(242, 242, 242,0) ,rgba(242, 242, 242,1) , rgba(242, 242, 242,0)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgba(242, 242, 242,0) ,rgba(242, 242, 242,1) , rgba(242, 242, 242,0)); /* Firefox 3.6 - 15 */
+    /* background: linear-gradient(rgba(242, 242, 242,0) ,rgba(242, 242, 242,1) , rgba(242, 242, 242,0)); 标准的语法（必须放在最后） */
+    background:linear-gradient(rgba(242, 242, 242,0) ,rgba(242, 242, 242,1) , rgba(242, 242, 242,0));
+    border: solid 1px #004ba6;
+}
+#meserror li{
+	color: red;
+}
+/* .login_lab {
+	position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    border-right: 1px solid #bdbdbd; 
+} */
